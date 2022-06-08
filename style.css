@@ -1,0 +1,56 @@
+h1{
+    text-transform: uppercase;
+    text-align: center;
+    color: blue;
+    text-decoration: underline;
+}
+h1~div{
+    display: flex;
+    
+}
+form{
+    width: 25%;
+    height: auto;
+    padding: 10px 20px;
+    /* border: 2px solid red; */
+}
+table{
+    width: auto;
+    height: auto;
+    /* border: 2px solid black; */
+}
+form>label{ font-weight: bold; }
+form>input,select{
+    width: 90%;
+    height: 30px;
+    margin: 5px 0px;
+}
+input:last-child{
+    border-radius: 20px;
+    border-color: none;
+    background-color: blue;
+    color: white;
+}
+/* thead{
+    width: 70%;
+} */
+td{
+    text-align: center;
+}
+th{
+    background-color: blue;
+    color: white;
+    padding: 5px 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
